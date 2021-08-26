@@ -109,9 +109,7 @@ class PaymentController extends Controller
         // }
         // \Session::put('error', 'Unknown error occurred');
         $history = InvitationHistory::where('id', $request->dataId)
-                                        ->update(['sender_email' => $request->sender_email,
-                                                'sender_name' => $request->sender_name,
-                                                'payStatus' => 1]);
+                                        ->update(['payStatus' => 1]);
         return redirect('/generate_page/'.$request->dataId.'');
 
     }
