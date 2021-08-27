@@ -16,26 +16,26 @@
         </div>
         <div class="invitation-template">
             <div class="row invitation">
-                <div class="template-group col-md-6 col-xs-12">
+                <div class="template-group col-md-6 col-xs-12" align="center">
                     <img src="{{asset('assets/images/invitation1.jpg')}}" />
                 </div>
-                <div class="template-group col-md-6 col-xs-12">
+                <div class="template-group col-md-6 col-xs-12" align="center">
                     <img src="{{asset('assets/images/invitation2.jpg')}}" />
                 </div>
             </div>
             <div class="row invitation">
-                <div class="template-group col-md-6 col-xs-12">
+                <div class="template-group col-md-6 col-xs-12" align="center">
                     <img src="{{asset('assets/images/invitation3.jpg')}}" />
                 </div>
-                <div class="template-group col-md-6 col-xs-12">
+                <div class="template-group col-md-6 col-xs-12" align="center">
                     <img src="{{asset('assets/images/invitation4.jpg')}}" />
                 </div>
             </div>
             <div class="row invitation">
-                <div class="template-group col-md-6 col-xs-12">
+                <div class="template-group col-md-6 col-xs-12" align="center">
                     <img src="{{asset('assets/images/invitation5.jpg')}}" />
                 </div>
-                <div class="template-group col-md-6 col-xs-12">
+                <div class="template-group col-md-6 col-xs-12" align="center">
                     <img src="{{asset('assets/images/invitation6.jpg')}}" />
                 </div>
             </div>
