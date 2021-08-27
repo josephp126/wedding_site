@@ -103,13 +103,13 @@ class Start_landing_page extends Controller
                                     ->where('marriage_date', $request->marriage_date)
                                     ->get();
         $randomPass = $request->bride_name.'*'.rand(0, 1000);
-        $data = array('name'=>"Virat Gandhi");
-        Mail::send('mail', $data, function($message) {
-            $message->to('linodeBp17@gmail.com', 'Tutorials Point')->subject
-               ('Laravel HTML Testing Mail');
-            $message->from('eg9397314@gmail.com','Virat Gandhi');
-         });
-         echo "HTML Email Sent. Check your inbox.";
+        // $data = array('name'=>"Virat Gandhi");
+        // Mail::send('mail', $data, function($message) {
+        //     $message->to('linodeBp17@gmail.com', 'Tutorials Point')->subject
+        //        ('Laravel HTML Testing Mail');
+        //     $message->from('eg9397314@gmail.com','Virat Gandhi');
+        //  });
+        //  echo "HTML Email Sent. Check your inbox.";
         if(count($repeat) == 0){
             $brideName = $request->bride_name.'_'.$request->marriage_date.'.'.$request->file()['bride_picture']->getClientOriginalExtension();
             $groomName = $request->groom_name.'_'.$request->marriage_date.'.'.$request->file()['groom_picture']->getClientOriginalExtension();

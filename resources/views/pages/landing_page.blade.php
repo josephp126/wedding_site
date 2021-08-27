@@ -39,7 +39,7 @@
                     <img src="{{asset('assets/images/invitation6.jpg')}}" />
                 </div>
             </div>
-            <div class="row invitation">
+            <!-- <div class="row invitation">
                 <div class="template-group col-md-6 col-xs-12">
                     <img src="{{asset('assets/images/invitation7.jpg')}}" />
                 </div>
@@ -54,7 +54,7 @@
                 <div class="template-group col-md-6 col-xs-12">
                     <img src="{{asset('assets/images/invitation10.jpg')}}" />
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 @endsection
