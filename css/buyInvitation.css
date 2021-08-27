@@ -33,6 +33,9 @@
     width: 53px;
 }
 
+.invitation-detail{
+    width: 50%;
+}
 
 .switch {
     position: relative;
