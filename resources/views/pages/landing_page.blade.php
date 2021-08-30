@@ -4,7 +4,7 @@
     
 <div class="content">
         <div style = "text-align: right">
-            <div style="display:flex; justify-content: right; font-size: 18px; font-family:'Arial">
+            <div style="display:flex; justify-content: right; font-size: 18px; font-family:'Arial'; cursor: pointer;">
                 <select class="form-control changeLang">
                     <option value="en" {{ session()->get('locale') == 'en' ? 'selected' : '' }}>English</option>
                     <option value="he" {{ session()->get('locale') == 'he' ? 'selected' : '' }}>Hebrew</option>
